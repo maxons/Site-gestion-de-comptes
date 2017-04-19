@@ -1,0 +1,126 @@
+#container_add
+{
+	width : 1500px;
+	background-color: white;
+}
+
+#container_add div
+{
+	display: inline-block;
+	background-color: white;
+	width: 500px;
+	vertical-align: top;
+}
+
+.container div
+{
+	display: inline-block;
+	background-color: white;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+
+input, textarea {
+	width: 150px;
+	padding: 4px;
+}
+
+textarea {
+	width: 300px;
+	height: 5em;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+	margin-right: 20px;
+	vertical-align: top;
+	text-align: right;
+}
+
+input[type="radio"]
+{
+	width: 10px;
+}
+input[type="radio"] + label
+{
+	text-align: left;
+}
+
+.hide
+{
+	list-style:none;
+}
+
+table, tr, th
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 8px;
+}
+
+/*
+#add_compte
+{
+	float : left;
+	width : 500px;
+	background-color : red;
+}
+
+#add_ope
+{
+	margin : 300px;
+	width : 1000px;
+	background-color : lightblue;
+}
+*/
+/*#add_ope{margin:0 auto;width:400px;background-color: lightblue;}*/
+/*
+.container ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+	overflow: auto;
+}
+
+ul li{
+  color: red;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100px;
+	border-bottom: 1px solid #333;
+}
+
+ul li input[type=radio]{
+  position: absolute;
+}
+
+ul li label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  padding: 25px 25px 25px 80px;
+  margin: 10px auto;
+  height: 30px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+*/
+/*
+
+
+*/
+
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+.block {
+  width: 100px;
+  display: inline-block;
+}
