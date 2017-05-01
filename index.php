@@ -30,14 +30,16 @@
 	<p>
 	   <label for="type">Type d'évènement: </label>
 	   <select name="type" id="type">
-	       <option value="france">France</option>
-	       <option value="espagne">Espagne</option>
-	       <option value="italie">Italie</option>
-	       <option value="royaume-uni">Royaume-Uni</option>
-	       <option value="canada">Canada</option>
-	       <option value="etats-unis">États-Unis</option>
-	       <option value="chine">Chine</option>
-	       <option value="japon">Japon</option>
+	       <option value="Loisirs">Loisirs</option>
+	       <option value="Sorties">Sorties</option>
+	       <option value="Voyages">Voyages</option>
+	       <option value="Nourriture">Nourriture</option>
+	       <option value="Ammeublement">Ammeublement</option>
+	       <option value="Charges">Charges</option>
+	       <option value="Loyer">Loyer</option>
+	       <option value="Autre">Autre</option>
+	       <option value="Credit">Credit</option>
+	       <option value="Salaire">Salaire</option>
 	   </select>
 	</p>
 	<p>

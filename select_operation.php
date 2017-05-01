@@ -1,8 +1,7 @@
 <?php
-
 include("connect_bdd.php");
-
-$sql = "select * from operation;";
+//$sql = "select * from operation;";
+$sql = "select * from operation order by id desc limit 20;";
 $result = mysqli_query($conn, $sql);
 echo "<table>
 <tr><th>id</th><th>Compte</th><th>Montant</th><th>Date</th><th>Type</th><th>Debit</th><th>Description</th>";
@@ -15,7 +14,5 @@ if (mysqli_num_rows($result) > 0) {
     echo "0 results";
 }
 echo "</table>";
-
 $conn->close();
-
 ?>
